@@ -1,0 +1,23 @@
+"use client"
+
+import React from "react";
+import UserProjects from '@/Components/User/UserProjects.jsx'
+import Meta from "@/Components/Seo/Meta";
+
+const Index = () => {
+
+    return (
+        <>
+            <Meta
+                title=""
+                description=""
+                keywords=""
+                ogImage=""
+                pathName=""
+            />
+            <UserProjects />
+        </>
+    );
+};
+
+export default Index;
